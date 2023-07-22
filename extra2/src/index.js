@@ -9,4 +9,5 @@ root.render(
     <App />
 );
 
-
+// basicamente está reinderizando o app, ou seja, fica realizando atualizações na página
+// ou seja, mostrando o aplicativo App.js

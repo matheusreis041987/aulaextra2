@@ -1,10 +1,14 @@
+import Products from "./pages/Produtos";
+import 
+
 
 function App() {
   return (
     <div >
-      App Teste react.
+     <Products />
     </div>
   );
 }
 
 export default App;
+// é o aplicativo, com os principais componentes (caixas)
