@@ -3,13 +3,14 @@
 
 import products from '../lista-produtos.json';
 import {useState} from "react";
-import banner from '../assets/banner.png'
+import banner from '../assets/banner.png';
+import item from '../components/item';
 
 
 // Cada componente é uma função em JS, que pode conter atributos, métodos ou retornos
 export default function Products() {
     // atributos (mesmo que estado em react)
-    const [productList, setProductList] = useState(products.bottles); // useState transforma o atributo em em estado
+    const [productList, setProductList] = useState(products.bottles); // useState transforma o atributo em um estado
 
     // métodos
 
@@ -32,14 +33,15 @@ export default function Products() {
 
                 <section className='main-products'>
                     {
-                        productList.map( item => {
-                                return JSON.stringify(item)
-                        } )
-                    }
+                          productList.map((product_itr, id) => {
 
+                            <item key={id} infosProduct = {product_itr} /> // informações do produto
+
+                          })  
+                   }
                 </section>
 
-                <footer> </footer>
+                <footer> Contatos: </footer>
 
             </div>
 
