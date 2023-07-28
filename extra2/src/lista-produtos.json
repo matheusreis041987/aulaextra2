@@ -29,7 +29,17 @@
             "image": [
                 "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTM9VGMxg1jH0XRopD8ytZI0sdhair-uvkZ19tKaVUW30jpijEk"
             ]
+        },
+
+        {
+            "id": 5,
+            "title": "Garrafa Térmica Ultra 2L",
+            "price": 79.85,
+            "image": [
+                "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTM9VGMxg1jH0XRopD8ytZI0sdhair-uvkZ19tKaVUW30jpijEk"
+            ]
         }
+
 
     ]
 }

@@ -200,6 +200,13 @@ footer {
     justify-self: center;
 }
 
+.contatos{
+  color: blue;
+  font-size: 15px;
+  font-family: 'Courier New';
+  
+}
+
 @media (min-width:200px) and (max-width: 282px) {   
     .quantity-title{
         font-style: normal;

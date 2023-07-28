@@ -4,7 +4,7 @@
 import products from '../lista-produtos.json';
 import {useState} from "react";
 import banner from '../assets/banner.png';
-import item from '../components/item';
+import Item from '../components/Item';
 
 
 // Cada componente é uma função em JS, que pode conter atributos, métodos ou retornos
@@ -26,22 +26,22 @@ export default function Products() {
                     
                 </header>
 
-                <section className='banner'>
+                <section className="banner">
                 {/* banner*/}
                 <img src={banner} alt="Imagem do banner"/>
                 </section>
 
-                <section className='main-products'>
+                <section className="main-products">
                     {
-                          productList.map((product_itr, id) => {
+                          productList.map((productItr, id) => (
 
-                            <item key={id} infosProduct = {product_itr} /> // informações do produto
+                            <Item key={id} infosProduct = {productItr} /> // informações do produto
 
-                          })  
+                          ))  
                    }
                 </section>
 
-                <footer> Contatos: </footer>
+                <footer className='contatos'> Contatos: </footer>
 
             </div>
 
